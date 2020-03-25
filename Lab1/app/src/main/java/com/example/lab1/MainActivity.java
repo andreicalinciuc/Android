@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.meniu, menu);
         return true;
@@ -78,10 +79,16 @@ public class MainActivity extends AppCompatActivity {
             case R.id.help:
                 startActivity(new Intent(this, Help.class));
                 break;
+
+            case R.id.preferences:
+            {
+                startActivity(new Intent(this, MyPreferenceActivity.class));
+
+                return true;
+            }
         }
         return super.onOptionsItemSelected(item);
     }
-    C:\Users\Andrei\AndroidStudioProjects\flutter_full_guild\Lab1\app
 
     public void onSaveInstanceState(Bundle outState) {
         outState.putString("savedItemsClick", listClickValue);
