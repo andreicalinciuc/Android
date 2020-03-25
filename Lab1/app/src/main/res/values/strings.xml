@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Book Shop</string>
+    <string-array name="books">
+        <item>Arta subtila a nepasarii</item>
+        <item>Arta manipularii</item>
+        <item>Pacienta tacuta</item>
+        <item>Povestea mea</item>
+        <item>Tatuatorul de la Auschwitz</item>
+        <item>Oamenii fericiti citec si beau cafea</item>
+        <item>Inteligenta emotionala ed 4</item>
+        <item>Ugly love. Despre fata urata a iubirii</item>
+        <item>Erus si Valea Recunostintei</item>
+        <item>Tata bogat, tata sarac. Editia a V-a, revizuita</item>
+        <item>Micul print</item>
+        <item>Te iubesc, orice-ai face!</item>
+        <item>Prietena mea geniala-editie de film</item>
+
+    </string-array>
+
+
+    <string name="help">Help</string>
+    <string name="account">Account</string>
+    <string name="log_out">Exit</string>
+</resources>
