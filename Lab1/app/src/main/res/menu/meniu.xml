@@ -8,12 +8,16 @@
         android:id="@+id/help"
         android:title="@string/help" />
 
+
+    <item
+        android:id="@+id/action_sensors"
+        android:title="Sensors" />
+
+    <item
+        android:id="@+id/preferences"
+        android:title="Preferences" />
     <item
         android:id="@+id/log_out"
         android:title="@string/log_out" />
-
-        <item
-            android:id="@+id/preferences"
-            android:title="Preferences" />
 
 </menu>
