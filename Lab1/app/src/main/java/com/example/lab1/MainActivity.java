@@ -81,6 +81,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_sensors:
                 startActivity(new Intent(this, Sensors.class));
                 return true;
+            case R.id.Camera:
+                startActivity(new Intent(this, CameraActivity.class));
+                return true;
 
             case R.id.preferences: {
                 startActivity(new Intent(this, MyPreferenceActivity.class));
